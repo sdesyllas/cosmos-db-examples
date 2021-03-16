@@ -49,7 +49,7 @@ var optimizedDatabase = await _cosmosDbService.CreateDatabaseAsync(_appSettings.
 
 Fetch all collections from the temp database, Id and partitionKey
 ```
-            var tempContainers = await _cosmosDbService.ListContainersAsync(tempDatabaseId);
+var tempContainers = await _cosmosDbService.ListContainersAsync(tempDatabaseId);
 ```
 
 Foreach collection fetched re-create the collection in the optimized database with the exact same id and partition key path
