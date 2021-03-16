@@ -1,4 +1,4 @@
-# cosmos-db-examples
+# cosmos db examples
 cosmos-db-examples is a toolset of various cosmos db activities, this repository includes examples of Creating, Deleting and managing containers. Also there are examples of data copying between containers and throughput configuration in databases within a cosmos db account.
 
 Create a random Database name
